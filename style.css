@@ -54,8 +54,10 @@ a{
 /*seccion principal*/
 .section-principal{
     min-height: 100vh;
+    padding-top: 100px;
+    padding-right: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     background-color:  #faf1cd;
@@ -66,7 +68,6 @@ a{
 .content-perfil{
     display:flex;
     flex-direction: column;
-    
 }
 
 .content-perfil h2{
@@ -95,13 +96,15 @@ a{
     color:#ffdb5a; 
 }
 
+.content-imagen{
+    width: 100px;
+}
 
 .content-imagen img { 
-    margin: 20px;
-    width: 250px;
-    height: 400px;
+    width: 250%;
     border-radius:200px;
 }
+
 
 
 /*Seccion conocimientos*/
@@ -244,10 +247,11 @@ a{
     height: 200px;
     text-align: center;
     font-size: 1em;
+    color: #ffdb5a;
     border-radius: 15px;
-    background-color: #faf1cd;
+    background-color:#8458a7;
+    
 }
-
 
 /*Sección Contacto*/
 
