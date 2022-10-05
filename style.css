@@ -271,47 +271,98 @@ a{
     border: 1px solid #8458a7 ;
     border-radius: 15px;
     text-align: center;
+    background-color:#8458a7  ;
+    justify-content: space-around;
     
     
 }
 .container-contacto h2{
     margin: 30px;
     font-size: 3em;
+    color: #ffdb5a;
 }
 .container-contacto p{
     padding: 20px;
     font-size: 1em;
 }
+
 .container-contacto li a{
-    color: #8458a7;
+    padding: 10px;
+    color: #ffdb5a;
+    border: 2px solid #ffdb5a;
+    border-radius: 150px;
+    
     
 }
 .fa-twitter{
-    font-size: 20px;
+    font-size: 25px;
     color: #ffdb5a;
 }
 .fa-github-alt{
-    font-size: 20px;
+    font-size: 25px;
     color: #ffdb5a;
 }
 .fa-linkedin-in{
-    font-size: 20px;
+    font-size: 25px;
     color: #ffdb5a;
 }
 .fa-envelope{
-    font-size: 20px;
+    font-size: 25px;;
     color: #ffdb5a;
 }
 
 .container-form h2{
     margin: 30px;
     font-size: 3em;
+    color: #ffdb5a;
+}
+.content-form{
+    display: flex;
+    flex-direction: column;
+    color: #ffdb5a;
+    
+}
+#iname{
+    padding: 10px;
+    color: #ffdb5a;
+    border-radius: 50px;
 
 }
+
+#isurname{
+    padding: 10px;
+    color: #ffdb5a;
+    border-radius: 50px;
+
+}
+#iemail{
+    padding: 10px;
+    color: #ffdb5a;
+    border-radius: 50px;
+}
+
+#imessage{
+    padding: 10px;
+    color: #ffdb5a;
+    border-radius: 50px;
+}
+
+.buttom-form{
+    margin: 10px;
+    padding: 10px;
+    color: #8458a7;
+    background-color: #ffdb5a;
+    border-radius: 100px;
+    border: 2px solid #8458a7;
+}
+
+
+
 
 /* FOOTER */
 
 footer{
+    padding: 30px;
     background-color:#8458a7;
     box-shadow: -162px -130px 30px -150px rgba(178,147,199,0.69) inset;
     -webkit-box-shadow: -162px -130px 30px -150px rgba(178,147,199,0.69) inset;
@@ -336,6 +387,7 @@ footer{
 }
 
 .footer-end{
+
     display: flex;
     justify-content: center;
     color: #ffdb5a;
