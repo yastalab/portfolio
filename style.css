@@ -115,7 +115,7 @@ a{
     flex-direction: column ;
     align-items: center;
     background-color: #f7ebba;
-    padding: 70px;
+    padding: 60px;
     box-shadow: -162px -130px 30px -150px rgba(178,147,199,0.69) inset;
     -webkit-box-shadow: -162px -130px 30px -150px rgba(178,147,199,0.69) inset;
     -moz-box-shadow: -162px -130px 30px -150px rgba(178,147,199,0.69) inset;
@@ -135,6 +135,9 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 80%;
+    
+   
    
 }
 .container-conocimientos div{
@@ -142,10 +145,11 @@ a{
     padding: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     border: 2px solid #8458a7;
-    height: 275px;
-    width: 275px;
+    height: 180px;
+    width: 220px;
     text-align: center;
     font-size: 1em;
     border-radius: 15px;
@@ -211,10 +215,11 @@ a{
 
 .section-proyectos {
     min-height: 100vh;
+    padding: 60px;
     display: flex;
     flex-direction:column;
     text-align: center;
-    padding: 80px;
+    align-items: center;
     background-color: #f7ebba;
     box-shadow: -162px -130px 30px -150px rgba(178,147,199,0.69) inset;
     -webkit-box-shadow: -162px -130px 30px -150px rgba(178,147,199,0.69) inset;
@@ -234,7 +239,8 @@ a{
 .container-proyectos{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    width: 80%;
+    align-items: center;
 }
 .container-proyectos div{
     margin: 30px;
@@ -276,6 +282,11 @@ a{
     
     
 }
+.container-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .container-contacto h2{
     margin: 30px;
     font-size: 3em;
@@ -284,6 +295,7 @@ a{
 .container-contacto p{
     padding: 20px;
     font-size: 1em;
+    color: #ffdb5a;
 }
 
 .container-contacto li a{
@@ -294,21 +306,10 @@ a{
     
     
 }
-.fa-twitter{
+.icon{
     font-size: 25px;
-    color: #ffdb5a;
-}
-.fa-github-alt{
-    font-size: 25px;
-    color: #ffdb5a;
-}
-.fa-linkedin-in{
-    font-size: 25px;
-    color: #ffdb5a;
-}
-.fa-envelope{
-    font-size: 25px;;
-    color: #ffdb5a;
+        color: #ffdb5a;
+   
 }
 
 .container-form h2{
@@ -394,6 +395,8 @@ footer{
     font-weight: none;
 
 }
+
+
 
 /* RESPONSIVE DESING MOBILE */
 
