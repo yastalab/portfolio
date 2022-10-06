@@ -46,6 +46,11 @@ a{
   color: #8458a7;
     border-radius: 100em;
     padding: 20px;
+    
+}
+li :hover{
+    color: #faf1cd;
+    transform: scale(1.1);
 }
 
 /* MAIN */
@@ -95,6 +100,10 @@ a{
     border:1px solid #ffdb5a;
     color:#ffdb5a; 
 }
+.content-perfil button :hover{
+    color: #faf1cd;
+    transform: scale(1.1);
+}
 
 .content-imagen{
     width: 100px;
@@ -122,14 +131,14 @@ a{
 
 }
 .section-conocimientos h2{
-    margin: 15px;
+    margin: 20px;
     font-size: 3em;
-    padding: 30px;
+    padding: 5px;
 }
 .section-conocimientos p{
     text-align: center;
     font-size: 1em;
-    padding: 20px;
+    padding: 1px;
 }
 .container-conocimientos { 
     display: flex;
@@ -176,6 +185,13 @@ a{
 }
 .fa-git-alt{
     color: #f34f29;
+}
+
+.container-conocimientos :hover{
+    border: 2px solid #ffdb5a;
+    color: #8458a7;
+   
+    
 }
 
 /* SECCION FRASE*/
@@ -240,7 +256,8 @@ a{
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    align-items: center;
+    justify-content: center;
+    
 }
 .container-proyectos div{
     margin: 30px;
@@ -249,14 +266,68 @@ a{
     flex-direction: column;
     justify-content: center;
     border: 2px solid #8458a7;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     text-align: center;
     font-size: 1em;
     color: #ffdb5a;
     border-radius: 15px;
     background-color:#8458a7;
     
+}
+
+.container-proyectos :hover{
+    transform: scale(1.1);
+    
+}
+
+.project-portfolio img{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.project-memes img{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.project-match3 img{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.project-gastos img{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.project-administrador img{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.project-app img{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.project-buscador img{
+    padding: 15px;
+    width:100%;
+    height: 100%;
+    border-radius: 30px;
 }
 
 /*Sección Contacto*/
