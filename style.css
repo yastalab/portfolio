@@ -369,6 +369,11 @@ li :hover{
     color: #ffdb5a;
 }
 
+.socialmedia-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .container-contacto li a{
     padding: 10px;
     color: #ffdb5a;
@@ -376,6 +381,11 @@ li :hover{
     border-radius: 150px;
     
     
+}
+.container-contacto li :hover{
+   border: 1px solid #faf1cd;
+   transform: scale(1.1);
+
 }
 .icon{
     font-size: 25px;
@@ -390,7 +400,10 @@ li :hover{
 }
 .content-form{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    
+    
     color: #ffdb5a;
     
 }
@@ -426,15 +439,22 @@ li :hover{
     background-color: #ffdb5a;
     border-radius: 100px;
     border: 2px solid #8458a7;
+    cursor: pointer;
 }
 
+.button-form :hover{
+    border: 2px solid#faf1cd;
+    color:#faf1cd;
+    transform: scale(1.1);
+
+}
 
 
 
 /* FOOTER */
 
 footer{
-    padding: 30px;
+    padding: 20px;
     background-color:#8458a7;
     box-shadow: -162px -130px 30px -150px rgba(178,147,199,0.69) inset;
     -webkit-box-shadow: -162px -130px 30px -150px rgba(178,147,199,0.69) inset;
@@ -452,11 +472,15 @@ footer{
 .footer-socialmedia {
     display: flex;
     justify-content: center;
+    padding: 30px;
 }
 .footer-socialmedia li{
-    margin: 15px;
+    padding: 0%;
+    margin: 10px;
     flex-direction: column;
+
 }
+
 
 .footer-end{
 
