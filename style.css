@@ -187,7 +187,7 @@ li :hover{
     color: #f34f29;
 }
 
-.container-conocimientos :hover{
+.container-conocimientos div:hover{
     border: 2px solid #ffdb5a;
     color: #8458a7;  
 }
@@ -275,7 +275,7 @@ li :hover{
     
 }
 
-.container-proyectos :hover{
+.container-proyectos div:hover{
     transform: scale(1.1);
     
     
@@ -395,7 +395,7 @@ li :hover{
     color: #ffdb5a;
   
 }
-.container-contacto li :hover{
+.container-contacto li a:hover{
    border: 1px solid #faf1cd;
    transform: scale(2.0);
    box-shadow: 10px #faf1cd;
