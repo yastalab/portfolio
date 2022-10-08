@@ -531,11 +531,10 @@ footer{
 /*RESPONSIVE DESIGN TABLET*/
 
 
-@media screen and (max-width:880px) {
+@media screen and (min-width:481px) and (max-width:880px) {
 
         .section-principal{
         flex-direction: column;
-       
 
     }
     .content-perfil{
@@ -552,23 +551,50 @@ footer{
     .content-contacto{
         flex-direction: column;
     }
-   
-   
-    }
-    
-/* RESPONSIVE DESIGN MOBILE*/
-
-@media  screen and (max-width: 480px) {
-    header{
-        display:none;
-    }
     .container-form{
         justify-content: center;
     }
     .content-form{
-        width: 350px;
+        width: 500px;
+        padding-left: 90px;
         
     }
+    }
+    
+/* RESPONSIVE DESIGN MOBILE*/
+
+@media  screen and (min-width:320px) and (max-width:480px) {
+    header{
+        display:none;
+    }
+    .section-principal{
+        flex-direction: column;
+
+    }
+    .content-perfil{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-left: 60px
+ 
+     }
+     .content-imagen{
+        margin-right: 85px;
+       padding-bottom: 30px;
+     }
+    .section-conocimientos h2{
+        text-align: center;
+    }
+    .content-contacto{
+        flex-direction: column;
+    }
+    .content-form{
+        width: 350px;
+       
+    }
+    .container-form{
+        justify-content: center;
+    }
+    
     .name-form{
         display: flex;
         flex-direction: column;
@@ -605,8 +631,5 @@ footer{
     align-items: center;
 
    }
-
-    
-   
     
 }
