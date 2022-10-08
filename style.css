@@ -279,6 +279,7 @@ li :hover{
 .container-proyectos :hover{
     transform: scale(1.1);
     
+    
 }
 
 .project-portfolio img{
@@ -373,14 +374,19 @@ li :hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
-.container-contacto li a{
+.container-contacto li a { 
     padding: 10px;
     color: #ffdb5a;
     border: 2px solid #ffdb5a;
     border-radius: 150px;
     
-    
+}
+.container-contacto li a i{ 
+    padding: 10px;
+    color: #ffdb5a;
+  
 }
 .container-contacto li :hover{
    border: 1px solid #faf1cd;
@@ -389,9 +395,10 @@ li :hover{
 }
 .icon{
     font-size: 25px;
-        color: #ffdb5a;
+    color: #ffdb5a;
    
 }
+
 
 .container-form h2{
     margin: 30px;
@@ -474,7 +481,7 @@ footer{
     justify-content: center;
     padding: 30px;
 }
-.footer-socialmedia li{
+.footer-socialmedia li a i{
     padding: 0%;
     margin: 10px;
     flex-direction: column;
